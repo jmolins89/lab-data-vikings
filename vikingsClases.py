@@ -74,7 +74,7 @@ class War:
 
         if self.saxonArmy[ps].health <= 0:
             self.saxonArmy.remove(self.saxonArmy[ps])
-            return att
+        return att
 
     def saxonAttack(self):
         pv = random.randint(0, len(self.vikingArmy)-1)
